@@ -31,6 +31,7 @@ body {
 	display: inline-block;
 	font-size: 11px;
 	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
 }
 
 /*-------------------------
@@ -56,21 +57,55 @@ body {
 	float: left;
 }
 
+.user--access-sections button {
+	background-color: #eee;
+	padding: 1px 6px 6px 8px;
+	border: 1px solid #ccc;
+	border-radius: 2px;
+}
+
 .user--access-sections img {
-	position: absolute;
+	position: relative;
+	top: 3px;
 }
 
 .user--access-sections span {
+	margin-left: 4px;
+}
+
+.user--access-home button {
+	background-color: #eee;
+	border: none;
+	padding: 0 3px 6px 4px;
+	
 }
 
 .user--access-home img {
-	width: 18px;
-	height: 18px;
+	width: 17px;
+	height: 17px;
+	position: relative;
+	top: 5px;
 }
 
-.user--access-search > img {
+.user--access-home span {
+  margin-left: 3px;
+}
+
+.user--access-search button {
+	background-color: #eee;
+	border: none;
+	padding: 3px 3px 6px 3px;
+}
+
+.user--access-search img {
 	width: 14px;
 	height: 14px;
+	position: relative;
+	top: 3px;
+}
+
+.user--access-search span {
+	margin-left: 3px;
 }
 
 .company--title img {
