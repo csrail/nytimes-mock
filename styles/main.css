@@ -24,6 +24,17 @@ body {
 }
 
 .support--navigation_and_utilities * {
+	
+}
+
+.user--access-utilities * {
+	display: inline-block;
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 700;
+	font-size: 11px;
+}
+
+.user--access-account * {
 	display: inline-block;
 	font-family: 'Montserrat', sans-serif;
 	font-weight: 700;
@@ -41,27 +52,28 @@ body {
 --------------------------*/
 
 .support--navigation_and_utilities {
-	width: 100%;
+	width: 98%;
 	height: 48px;
 	background-color: #eee;
+	margin-left: 2%;
+	position: fixed;
 }
 
 /*-------------------------
 	#NAV NAVIGATION
 --------------------------*/
 
-.support--user-navigation {
+.wrapper--user_navigation {
+	
 }
 
-.wrapper--user_navigation {
-	display: inline-block;
-	position: absolute;
+.support--user-navigation {
+	
 }
 
 .user--access-utilities {
 	display: inline-block;
 	float: left;
-	overflow: hidden;
 }
 
 .user--access-sections button {
@@ -70,7 +82,7 @@ body {
 	border: 1px solid #ccc;
 	border-radius: 2px;
 	margin-top: 8px;
-	margin-left: 12px;
+	margin-left: -14px;
 	position: relative;
 }
 
@@ -119,11 +131,9 @@ body {
 	margin-left: 3px;
 }
 
-.wrapper--company_title {
-	width: 100%;
-	position: absolute;
-	margin: auto;
-	top: 12px;
+.company--title {
+	width: 186px;
+	background-color: #5cd11d;
 }
 
 /*================================
@@ -133,15 +143,16 @@ body {
 ================================*/
 
 .company--title {
-	text-align: center;
-	display: block;
+	display: inline-block;
 }
 
 .wrapper--access_account {
+	background-color: #3dfd1d;
 	display: block;
-	position: relative;
 	float: right;
-	overflow: hidden;
+}
+
+.user--access-acount {
 }
 
 .user--access-account * {
@@ -165,11 +176,8 @@ body {
 	padding: 7px 4px 5px 6px;
 	border: 1px solid #4F7C9F;
 	border-radius: 3px;
+	margin-top: 8px;
 	color: #fff;
-}
-
-.user--access-options {
-	float: right;
 }
 
 .user--access-options button {	
@@ -190,26 +198,34 @@ body {
 	#HEADER RELATED TOPICS
 --------------------------*/
 
+.support--user-reel_related_topics {
+	background-color: #f02152;
+	display: block;
+	margin-left: 30px;
+	margin-top: 100px;
+}
 
+.support--user-reel_related_topics * {	
+	display: inline-block;
+}
 
+.support--user-reel_related_topics li > p {
+	background-color: #d38e4b;
+	width: 150px;
+	float: right;
+}
 
+.support--user-reel_related_topics li > img {
+	width: 65px;
+	height: 65px;
+}
 
+.support--user-reel_article_1 {
+	background-color: #f02152;
+}
 
+.support--user-reel_article_1 p {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+}
 
 
