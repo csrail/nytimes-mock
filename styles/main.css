@@ -23,8 +23,10 @@ body {
 	background-color: #a6df7f;
 }
 
-.support--navigation_and_utilities * {
-	
+.support--navigation_and_utilities {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
 }
 
 .user--access-utilities * {
@@ -54,7 +56,7 @@ body {
 .support--navigation_and_utilities {
 	width: 98%;
 	height: 48px;
-	background-color: #eee;
+	background-color: #fff;
 	margin-left: 2%;
 	position: fixed;
 }
@@ -63,27 +65,19 @@ body {
 	#NAV NAVIGATION
 --------------------------*/
 
-.wrapper--user_navigation {
-	
-}
-
-.support--user-navigation {
-	
-}
-
 .user--access-utilities {
 	display: inline-block;
 	float: left;
 }
 
 .user--access-sections button {
-	background-color: #eee;
+	background-color: #fff;
 	padding: 1px 6px 6px 8px;
-	border: 1px solid #ccc;
+	border: 1px solid #eee;
 	border-radius: 2px;
 	margin-top: 8px;
 	margin-left: -14px;
-	position: relative;
+	box-shadow: 0 1px 0 1px #eee
 }
 
 .user--access-sections img {
@@ -96,7 +90,7 @@ body {
 }
 
 .user--access-home button {
-	background-color: #eee;
+	background-color: #fff;
 	border: none;
 	padding: 0 3px 6px 4px;
 	margin-left: 10px;
@@ -114,7 +108,7 @@ body {
 }
 
 .user--access-search button {
-	background-color: #eee;
+	background-color: #fff;
 	border: none;
 	padding: 3px 3px 6px 3px;
 	margin-left: 6px;
@@ -133,7 +127,6 @@ body {
 
 .company--title {
 	width: 186px;
-	background-color: #5cd11d;
 }
 
 /*================================
@@ -143,16 +136,12 @@ body {
 ================================*/
 
 .company--title {
-	display: inline-block;
-}
-
-.wrapper--access_account {
-	background-color: #3dfd1d;
 	display: block;
-	float: right;
+	margin-top: 10px;
 }
 
 .user--access-acount {
+	position: relative;
 }
 
 .user--access-account * {
@@ -193,6 +182,33 @@ body {
 	padding: 1px 0 1px 0;
 	top: 2px;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*-------------------------
 	#HEADER RELATED TOPICS
