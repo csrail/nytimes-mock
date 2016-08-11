@@ -5,11 +5,9 @@
  * Global
  *
  * BASE
- * Section: 		Navigation and Utilities
- * 	Nav: 					Navigation
- * 	Header:				Related Topics
+ * 
  *
- * Footer
+ * 
  *
  * Eggs: 			
  *
@@ -19,229 +17,30 @@
 	#GLOBAL
 --------------------------*/
 
-body {
-	background-color: #a6df7f;
-}
 
-.support--navigation_and_utilities {
-	display: flex;
-	justify-content: space-between;
-	position: fixed;
-}
 
-.user--access-utilities * {
-	display: inline-block;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: 11px;
-}
 
-.user--access-account * {
-	display: inline-block;
-	font-family: 'Montserrat', sans-serif;
-	font-weight: 700;
-	font-size: 11px;
-}
 
-.support--user-reel_related_topics * {
-	display: inline-block;
-	font-family: 'Domine', serif;
-	font-size: 13px;
-}
 
 /*-------------------------
-	#SECTION AND UTILITIES
+	#
 --------------------------*/
 
-.support--navigation_and_utilities {
-	width: 98%;
-	height: 48px;
-	background-color: #fff;
-	margin-left: 2%;
-	position: fixed;
-}
+
+
+
+
 
 /*-------------------------
-	#NAV NAVIGATION
+	#
 --------------------------*/
 
-.user--access-utilities {
-	display: inline-block;
-	float: left;
-}
 
-.user--access-sections button {
-	background-color: #fff;
-	padding: 1px 6px 6px 8px;
-	border: 1px solid #eee;
-	border-radius: 2px;
-	margin-top: 8px;
-	margin-left: -14px;
-	box-shadow: 0 1px 0 1px #eee
-}
 
-.user--access-sections img {
-	position: relative;
-	top: 3px;
-}
 
-.user--access-sections span {
-	margin-left: 4px;
-}
-
-.user--access-home button {
-	background-color: #fff;
-	border: none;
-	padding: 0 3px 6px 4px;
-	margin-left: 10px;
-}
-
-.user--access-home img {
-	width: 17px;
-	height: 17px;
-	position: relative;
-	top: 5px;
-}
-
-.user--access-home span {
-  margin-left: 3px;
-}
-
-.user--access-search button {
-	background-color: #fff;
-	border: none;
-	padding: 3px 3px 6px 3px;
-	margin-left: 6px;
-}
-
-.user--access-search img {
-	width: 14px;
-	height: 14px;
-	position: relative;
-	top: 3px;
-}
-
-.user--access-search span {
-	margin-left: 3px;
-}
-
-.company--title {
-	width: 186px;
-}
 
 /*================================
 	ANOTHER REALLY NICE LIME COLOUR
 	
 	background-color: #defc1f;
 ================================*/
-
-.company--title {
-	display: block;
-	margin-top: 10px;
-}
-
-.user--access-acount {
-	position: relative;
-}
-
-.user--access-account * {
-	display: inline-block;
-}
-
-.user--access-subscribe button {
-	background-color: #6288A5;
-	padding: 7px 4px 5px 6px;
-	border: 1px solid #4F7C9F;
-	border-radius: 3px;
-	margin-top: 8px;
-	color: #fff;
-}
-
-.user--access-log_in {
-}
-
-.user--access-log_in button {
-	background-color: #6288A5;
-	padding: 7px 4px 5px 6px;
-	border: 1px solid #4F7C9F;
-	border-radius: 3px;
-	margin-top: 8px;
-	color: #fff;
-}
-
-.user--access-options button {	
-	background-color: #eee;
-	border: none;
-	margin-top: 10px;
-	margin-left: 4px;
-	margin-right: 4px;
-}
-
-.user--access-options img {
-	position: relative;
-	padding: 1px 0 1px 0;
-	top: 2px;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-/*-------------------------
-	#HEADER RELATED TOPICS
---------------------------*/
-
-.support--user-reel_related_topics {
-	background-color: #f02152;
-	display: block;
-	margin-left: 30px;
-	margin-top: 100px;
-}
-
-.support--user-reel_related_topics * {	
-	display: inline-block;
-}
-
-.support--user-reel_related_topics li > p {
-	background-color: #d38e4b;
-	width: 150px;
-	float: right;
-}
-
-.support--user-reel_related_topics li > img {
-	width: 65px;
-	height: 65px;
-}
-
-.support--user-reel_article_1 {
-	background-color: #f02152;
-}
-
-.support--user-reel_article_1 p {
-
-}
-
-
