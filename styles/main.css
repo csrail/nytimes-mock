@@ -20,7 +20,9 @@
  	#EGGS
  --------------------------*/
 
-/*rgba(176,45,58,0.9161)*/
+/* rgba(176,45,58,0.9161)
+ * #b06
+*/
 
 
 
@@ -31,7 +33,7 @@
 --------------------------*/
 
 body {
-  background-color: #3e2a18;
+  background-color: #a6df7f;
 }
 
 
@@ -45,10 +47,16 @@ body {
 .banner__header {
   background-color: #fff;
   width: 96%;
-  position: fixed
-  padding-bottom: 20px;
-  margin: 0 auto;
+  position: fixed;
+  margin: auto;
+  left: 0;
+  right: 0;  
 }
+
+.flow__div {
+  height: 130px;
+}
+
 
 
 
@@ -221,7 +229,74 @@ body {
   text-decoration: underline;
 }
 
+.horizontal-news-strip__list-item > span {
+  display: inline;
+  max-width: 176px;
+  position: absolute;
+  margin-top: 4px;
+  margin-left: 6px;
+  font-size: 10px;
+  color: #333;
+}
+
+
+
 .horizontal-news-strip__list-item--left-border {
   padding-left: 3px;
   border-left: 1px solid #aaa
+}
+
+
+
+
+/*---------------------------------
+	#SECTION -- Backdrop
+---------------------------------*/
+
+.backdrop__section {
+  width: 96%;
+  border: 2px solid red;
+  margin: auto;
+}
+
+article {
+  width: 1125;
+  margin: auto;
+}
+
+figure {
+  width: 1125px;
+  margin: auto;
+}
+
+figure > img {
+  width: 100%
+}
+
+.media-email, .media-bookmark {
+  background-image: url("../images/icons/nyt-sprites.svg");
+  background-repeat: center;
+}
+
+.media-email {
+  width: 25px;
+	height: 25px;
+	background-position: -131px -21px;
+}
+
+.media-bookmark {
+  width: 16px;
+	height: 25px;
+	background-position: -353px -214px;
+}
+
+.media-comment {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 12px;
+  color: #555;
+  display: inline-block;
+  background-color: #fff;
+  padding: 6px;
+  border: 1px solid #777;
+  border-radius: 5px;  
 }
