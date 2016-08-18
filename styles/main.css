@@ -22,6 +22,7 @@
 
 /* rgba(176,45,58,0.9161)
  * #b06
+ * #a6df7f
 */
 
 
@@ -31,9 +32,13 @@
 /*-------------------------
 	#GLOBAL
 --------------------------*/
+html {
+  height: 100%;
+}
 
 body {
-  background-color: #a6df7f;
+  background-color: #fff;
+  height: 100%;
 }
 
 
@@ -50,11 +55,17 @@ body {
   position: fixed;
   margin: auto;
   left: 0;
-  right: 0;  
+  right: 0;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
+  z-index: 1;
+  overflow-x: hidden;
+  border-bottom: 1px solid #aaa;
+  box-shadow: 0 4px 8px -7px #aaa;
 }
 
-.flow__div {
-  height: 130px;
+.flow__div--header {
+  height: 128px;
 }
 
 
@@ -188,6 +199,10 @@ body {
   left: 6px;
 }
 
+
+
+
+
 /*---------------------------------
 	#NAV -- Horizontal News Strip
 ---------------------------------*/
@@ -195,7 +210,8 @@ body {
   width: 100%;
   max-height: 82px;
   overflow: hidden;
-  border-bottom: 1px solid #aaa;
+  
+  z-index: 1;
 }
 
 .horizontal-news-strip__list-item {
@@ -255,39 +271,126 @@ body {
 
 .backdrop__section {
   width: 96%;
-  border: 2px solid red;
+  height: 100%;
+  background-color: #fff;
+  border-left: 1px solid #aaa;
+  border-right: 1px solid #aaa;
   margin: auto;
 }
+
 
 article {
   width: 1125;
   margin: auto;
+  position: relative;
+  top: 120px;
+  padding-top: 6px;
+  border-top: 1px solid #111
 }
 
-figure {
-  width: 1125px;
-  margin: auto;
+
+
+.topic__paragraph {
+  text-decoration: none;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 700;
+  font-size: 0.8rem;
+  color: #111;
 }
 
-figure > img {
-  width: 100%
+.topic__paragraph:hover {
+  text-decoration: underline;
+}
+
+
+
+.article-title__heading2 {
+  font-size: 2.2rem;
+  font-weight: 600;
+  font-style: italic;
+  margin-top: 36px;
+  padding-bottom: 16px;
+  border-bottom: 1px dotted #aaa;
+}
+
+
+
+
+/*---------------------------------
+	#NAV -- Publishing
+---------------------------------*/
+
+.publishing__nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.publishing__unordered-list {
+  float: left;
+  font-size: 0.72rem;
+  letter-spacing: 0.04rem;
+}
+
+.publish-date__list-item {
+  margin-left: 10px;
+}
+
+.publishing__unordered-list li {
+  display: inline-block;
+}
+
+.social-media__unordered-list {
+  float: right;
+}
+
+.social-media__unordered-list li {
+  display: inline-block;
+}
+
+.social-media__unordered-list a {
+  text-decoration: none;
 }
 
 .media-email, .media-bookmark {
   background-image: url("../images/icons/nyt-sprites.svg");
-  background-repeat: center;
+  background-repeat: no-repeat;
+  position: relative;
 }
 
 .media-email {
   width: 25px;
 	height: 25px;
 	background-position: -131px -21px;
+  top: 5px;  
+  margin-right: 10px;
+}
+
+.media-email:hover {
+  background-position: -183px -21px;
+}
+
+.media-border__div {
+  height: 20px;
+  border-right: 1px solid #aaa;
+  display: inline-block;
+  position: relative;
+  top: 4px;
 }
 
 .media-bookmark {
   width: 16px;
 	height: 25px;
 	background-position: -353px -214px;
+  top: 5px;
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+.media-bookmark:hover {
+  background-position: -387px -214px;
 }
 
 .media-comment {
@@ -299,4 +402,28 @@ figure > img {
   padding: 6px;
   border: 1px solid #777;
   border-radius: 5px;  
+  position: relative;
+  bottom: 3px;
 }
+
+.media-comment:hover {
+  color: #f7f7f5;
+  background-color: #666;
+}
+
+/*---------------------------------
+	#ARTICLE -- 
+---------------------------------*/
+
+figure {
+  width: 1125px;
+  margin: auto;
+}
+
+figure > img {
+  width: 100%;
+}
+
+
+
+
