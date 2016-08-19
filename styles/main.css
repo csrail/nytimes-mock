@@ -33,7 +33,7 @@
 	#GLOBAL
 --------------------------*/
 html {
-  height: 100%;
+  height: 100%;  
 }
 
 body {
@@ -41,9 +41,17 @@ body {
   height: 100%;
 }
 
+strong { 
+  font-weight: bold;
+}
 
-
-
+figcaption {
+  font-family: Georgia, "Times New Roman";
+  font-size: 0.8rem;
+  line-height: 1rem;
+  margin-top: 4px;
+  color: #666;
+}
 
 /*-------------------------
 	#HEADER -- Banner
@@ -56,12 +64,13 @@ body {
   margin: auto;
   left: 0;
   right: 0;
-  border-left: 1px solid #aaa;
-  border-right: 1px solid #aaa;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+  border-bottom: 1px solid #ccc;
+  box-shadow: 0 4px 8px -7px #ccc;
   z-index: 1;
-  overflow-x: hidden;
-  border-bottom: 1px solid #aaa;
-  box-shadow: 0 4px 8px -7px #aaa;
+  overflow: hidden;
+  
 }
 
 .flow__div--header {
@@ -82,7 +91,7 @@ body {
   width: 100%;
   display: flex;
   justify-content: space-between;
-  border-bottom: 1px solid #aaa;
+  border-bottom: 1px solid #ccc;
 }
 
 
@@ -90,7 +99,7 @@ body {
 .directories__unordered-list {
   position: relative;
   margin-top: 10px;
-  margin-left: -8px;
+  margin-left: -20px;
 }
 
 .directories__list-item {
@@ -139,7 +148,7 @@ body {
 
 
 .directories-sections__button {
-  border: 1px solid #aaa;
+  border: 1px solid #ccc;
 }
 
 .directories-sections__button > p {
@@ -210,7 +219,6 @@ body {
   width: 100%;
   max-height: 82px;
   overflow: hidden;
-  
   z-index: 1;
 }
 
@@ -259,7 +267,7 @@ body {
 
 .horizontal-news-strip__list-item--left-border {
   padding-left: 3px;
-  border-left: 1px solid #aaa
+  border-left: 1px solid #ccc
 }
 
 
@@ -271,19 +279,19 @@ body {
 
 .backdrop__section {
   width: 96%;
-  height: 100%;
   background-color: #fff;
-  border-left: 1px solid #aaa;
-  border-right: 1px solid #aaa;
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
   margin: auto;
+  padding-top: 100px;
 }
 
 
+
 article {
-  width: 1125;
+  max-width: 1125;
   margin: auto;
   position: relative;
-  top: 120px;
   padding-top: 6px;
   border-top: 1px solid #111
 }
@@ -305,7 +313,8 @@ article {
 
 
 .article-title__heading2 {
-  font-size: 2.2rem;
+  font-family: Georgia, "Times New Roman";
+  font-size: 1.9rem;
   font-weight: 600;
   font-style: italic;
   margin-top: 36px;
@@ -331,7 +340,6 @@ article {
 .publishing__unordered-list {
   float: left;
   font-size: 0.72rem;
-  letter-spacing: 0.04rem;
 }
 
 .publish-date__list-item {
@@ -415,15 +423,58 @@ article {
 	#ARTICLE -- 
 ---------------------------------*/
 
-figure {
-  width: 1125px;
+.overview__figure {
+  max-width: 1125px;
   margin: auto;
+  margin-bottom: 50px;
 }
 
-figure > img {
+.main-photo__image {
   width: 100%;
 }
 
+.main-photo__figcaption {
+  max-width: 606px;
+}
 
+.copyright-credit__span {
+  margin-left: 2px;
+  font-size: 0.7rem;
+  color: #999;
+}
 
+.spacer-story-body__div {
+  width: 705px;
+}
 
+.story-body__paragraph {
+  width: 570px;
+  font-family: Georgia, "Times New Roman";
+  font-weight: 400;
+  font-size: 1.06rem;
+  line-height: 1.4rem;
+  color: #333;
+  margin: auto;
+  margin-bottom: 1.1em;
+}
+
+.story-body__anchor {
+  color: #326891;
+}
+
+.feature-video__figure {
+  margin-top: 45px;
+  margin-bottom: 35px;
+}
+
+.supplement__figure {
+  max-width: 645px;
+}
+
+.supplement-photo__image {
+  max-width: 645px;
+}
+
+.supplement-photo__figcaption {
+  max-width: 100%;
+}
